@@ -9,7 +9,7 @@ const Navbar = () => {
           <svg className="bi me-2" width="40" height="32">
             <use xlinkHref="#bootstrap"></use>
           </svg>
-          <span className="fs-4 profile-name">Atanu's Portfolio</span>
+          <span className="fs-4 profile-name">Arka's Portfolio</span>
         </a>
 
         <ul className="nav nav-pills">
