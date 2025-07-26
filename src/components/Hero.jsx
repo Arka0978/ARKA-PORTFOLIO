@@ -3,7 +3,7 @@ import arka_photo from "../assets/arka_photo.jpeg"
 import twittericon from "../assets/twitter-light.svg";
 import githubicon from "../assets/github-light.svg";
 import Linkedinicon from "../assets/linkedin-light.svg";
-import CV from "../assets/ARKA CV.pdf";
+import CV from "../assets/ARKA CV new.pdf";
 
 const Hero = () => {
   return (
