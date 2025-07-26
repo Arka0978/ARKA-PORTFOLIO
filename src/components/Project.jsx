@@ -2,6 +2,7 @@ import styles from "./Project.module.css";
 
 import delicazyImage from "../assets/delicazy.png";
 import phnxImage from "../assets/movie ss.jpg"
+import expenseimage from "../assets/expensetracker.png"
 
 const Project = () => {
   return (
@@ -45,6 +46,24 @@ const Project = () => {
               rel="noopener noreferrer"
             >
               <button className={styles.button}>View Code</button>
+            </a>
+          </div>
+        </div>
+                <div
+          className={styles.card}
+          style={{ backgroundImage: `url(${expenseimage})` }}
+        >
+          <div className={styles.overlay}>
+            <h3 className={styles.cardTitle}>ExpenseTracker</h3>
+            <p className={styles.cardText}>
+              A website to track daily expenses easily and maintain calculations.It builts using html,css and js.
+            </p>
+            <a
+              href="https://arka0978.github.io/Expense-Tracker/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.button}>View Website</button>
             </a>
           </div>
         </div>
